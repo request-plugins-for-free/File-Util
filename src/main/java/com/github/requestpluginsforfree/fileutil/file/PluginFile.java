@@ -29,11 +29,11 @@ public class PluginFile extends PluginYaml {
         return super.configuration();
     }
 
-    private File directory() {
+    public File directory() {
         return directory;
     }
 
-    private File file() {
-        return file;
+    public File file() {
+        return this.file;
     }
 }
